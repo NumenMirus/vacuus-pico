@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
+#include "pico/stdlib.h"
+#include "pico/cyw43_arch.h"
 
 #define MAX_USERNAME_LENGTH 20
 #define MAX_PASSWORD_LENGTH 256
@@ -103,7 +105,25 @@ Credentials search_credentials_with_regex(const char* regex, const Credentials* 
     return (Credentials){"", "", ""};
 }
 
+void blink_led(int n){
+    if (cyw43_arch_init()){
+        printf("Wi-Fi init failed");
+        return;
+    }
+    for(int i = 0; i < n; i++){
+        cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
+        sleep_ms(100);
+        cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);
+        sleep_ms(100);
+    }
+}
+
 int main() {
+    stdio_init_all();
+
+    blink_led(10);
+
+    /*
     const char* filename = "db.csv";
     FILE* file = fopen(filename, "r");
     Credentials* creds = read_credentials_into_array(file);
@@ -128,5 +148,6 @@ int main() {
     free(website);
     free(creds);
     fclose(file);
+    */
     return 0;
 }
