@@ -123,31 +123,21 @@ int main() {
 
     blink_led(10);
 
-    /*
     const char* filename = "db.csv";
     FILE* file = fopen(filename, "r");
     Credentials* creds = read_credentials_into_array(file);
 
-    int i = 0;
-    char* website = malloc(MAX_WEBSITE_LENGTH);
-    while(i < 10){
-        printf("Enter website: ");
-        scanf("%s", website);
+    printf("Hello! I'm Vacuus, your password manager\n\n");
 
-        Credentials c = search_credentials(website, creds, 34);
-        if(strcmp(c.website, "") == 0){
-            printf("Website not found\n");
-            i++;
-            continue;
-        }
+    Credentials new_creds = search_credentials("www.google.com", creds, 21);
+    debug_credentials(&new_creds);
 
-        printf("Username: %s\nPassword: %s\n", c.username, c.password);
-        i++;
-    }
+    Credentials new_creds2 = search_credentials("www.snapchat.com", creds, 21);
+    debug_credentials(&new_creds2);
 
-    free(website);
+    blink_led(10);
+
     free(creds);
     fclose(file);
-    */
     return 0;
 }

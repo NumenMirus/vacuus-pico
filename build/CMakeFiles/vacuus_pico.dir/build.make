@@ -688,80 +688,52 @@ CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-
-CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -775,7 +747,7 @@ CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_unique_id/uni
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -786,10 +758,332 @@ CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_flash/fla
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/tusb.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/tusb.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c > CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+
+CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
 
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
@@ -803,7 +1097,7 @@ CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: /home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -c /home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
 
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
@@ -817,7 +1111,7 @@ CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: /home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -c /home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
 
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
@@ -831,7 +1125,7 @@ CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_stats.
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: /home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -c /home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
@@ -845,7 +1139,7 @@ CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: /home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -c /home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
@@ -859,7 +1153,7 @@ CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
 
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
@@ -873,7 +1167,7 @@ CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
 
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
@@ -887,7 +1181,7 @@ CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /home/numen/pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/numen/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -901,7 +1195,7 @@ CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /home/numen/pico-sdk/src/rp2_common/hardware_dma/dma.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /home/numen/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -915,7 +1209,7 @@ CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_dma/dma.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: /home/numen/pico-sdk/src/rp2_common/hardware_exception/exception.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /home/numen/pico-sdk/src/rp2_common/hardware_exception/exception.c
 
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
@@ -929,7 +1223,7 @@ CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_exception
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
 
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
@@ -943,7 +1237,7 @@ CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
 
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
@@ -957,7 +1251,7 @@ CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: CMakeFiles/vacuus_pico.dir/flags.make
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: /home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: CMakeFiles/vacuus_pico.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -MF CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj.d -o CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -c /home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
 
 CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
@@ -1015,13 +1309,34 @@ vacuus_pico_OBJECTS = \
 "CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
 "CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
+"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
 "CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj" \
 "CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj" \
 "CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj" \
 "CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj" \
-"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
-"CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
 "CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj" \
 "CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj" \
 "CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj" \
@@ -1084,13 +1399,34 @@ vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/p
 vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/tusb.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
 vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
 vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
 vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
-vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
 vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
 vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
@@ -1107,7 +1443,7 @@ vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/home/numen/pico-sdk/src/rp2_common/p
 vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/build.make
 vacuus_pico.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 vacuus_pico.elf: CMakeFiles/vacuus_pico.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Linking CXX executable vacuus_pico.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/numen/CLionProjects/vacuus-pico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Linking CXX executable vacuus_pico.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vacuus_pico.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex /home/numen/CLionProjects/vacuus-pico/build/vacuus_pico.elf vacuus_pico.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /home/numen/CLionProjects/vacuus-pico/build/vacuus_pico.elf vacuus_pico.bin

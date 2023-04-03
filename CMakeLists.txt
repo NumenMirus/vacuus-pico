@@ -13,4 +13,7 @@ add_executable(vacuus_pico
 
 target_link_libraries(vacuus_pico pico_stdlib pico_cyw43_arch_none)
 
+pico_enable_stdio_usb(vacuus_pico 1)
+pico_enable_stdio_uart(vacuus_pico 0)
+
 pico_add_extra_outputs(vacuus_pico)

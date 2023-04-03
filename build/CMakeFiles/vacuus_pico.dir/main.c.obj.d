@@ -58,7 +58,7 @@ CMakeFiles/vacuus_pico.dir/main.c.obj: \
  /home/numen/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
  /home/numen/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /home/numen/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /home/numen/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /home/numen/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /home/numen/pico-sdk/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h \
  /home/numen/pico-sdk/lib/cyw43-driver/src/cyw43.h \
  /home/numen/pico-sdk/lib/cyw43-driver/src/cyw43_config.h \
