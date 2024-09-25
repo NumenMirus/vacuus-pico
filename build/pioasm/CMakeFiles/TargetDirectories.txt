@@ -1,3 +1,0 @@
-/home/numen/CLionProjects/vacuus-pico/build/pioasm/CMakeFiles/pioasm.dir
-/home/numen/CLionProjects/vacuus-pico/build/pioasm/CMakeFiles/edit_cache.dir
-/home/numen/CLionProjects/vacuus-pico/build/pioasm/CMakeFiles/rebuild_cache.dir
