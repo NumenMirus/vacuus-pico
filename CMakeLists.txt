@@ -13,7 +13,7 @@ set(PICO_EXAMPLES_PATH ${PROJECT_SOURCE_DIR})
 pico_sdk_init()
 
 add_executable(vacuus
-    main.c
+    main.cpp
 )
 
 # pull in our pico_stdlib which pulls in commonly used features
