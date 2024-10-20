@@ -8,7 +8,7 @@ export PICO_SDK_PATH=../pico-sdk
 
 cmake ..
 
-make -j4
+make -j6
 
 if [ "$1" == "run" ]; then
     cp *.uf2 /media/$USER/RPI-RP2

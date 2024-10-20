@@ -18,11 +18,10 @@ add_executable(vacuus
 
 # pull in our pico_stdlib which pulls in commonly used features
 target_link_libraries(vacuus pico_stdlib)
-target_link_libraries(vacuus pico_serial)
 
 # enable usb output, disable uart output
 pico_enable_stdio_usb(vacuus 1)
-pico_enable_stdio_uart(vacuus 1)
+pico_enable_stdio_uart(vacuus 0)
 
 # create map/bin/hex file etc.
 pico_add_extra_outputs(vacuus)
