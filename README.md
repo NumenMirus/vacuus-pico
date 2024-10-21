@@ -34,3 +34,17 @@ An offline password manager is a type of password manager that does not rely on 
 ### Conclusion
 
 An offline password manager is a secure and private way to manage your passwords without relying on cloud services. While it requires more manual effort to sync and backup, it offers enhanced security and privacy for your sensitive information.
+
+### Pin config for this specific hardware
+
+|       | SPI0  | GPIO  | Pin   | SPI       | MicroSD   | Description            | 
+| ----- | ----  | ----- | ---   | --------  | --------- | ---------------------- |
+| MISO  | RX    | 16    | 21    | DO        | DO        | Master In, Slave Out   |
+| MOSI  | TX    | 19    | 25    | DI        | DI        | Master Out, Slave In   |
+| SCK   | SCK   | 18    | 24    | SCLK      | CLK       | SPI clock              |
+| CS0   | CSn   | 17    | 22    | SS or CS  | CS        | Slave (or Chip) Select |
+| DET   |       | 22    | 29    |           | CD        | Card Detect            |
+| GND   |       |       | 18,23 |           | GND       | Ground                 |
+| 3v3   |       |       | 36    |           | 3v3       | 3.3 volt power         |
+
+

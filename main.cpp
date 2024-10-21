@@ -1,56 +1,13 @@
 #include "main.hpp"
+#include "./utils/operations.hpp"
+#include "./utils/database.hpp"
+#include "./utils/sd.hpp"
 #include "pico/stdlib.h"
 #include "tusb.h"
 #include <cstdlib>
 #include <cctype>
 #include <string>
-
-
-#define OP_ERROR -1
-#define OP_GET_BY_ID 1
-#define OP_GET_BY_USERNAME 2
-#define OP_GET_BY_WEBISTE_MATCH 3
-#define OP_DELETE_BY_ID 4
-#define OP_DELETE_BY_USERNAME 5
-#define OP_DELETE_BY_WEBSITE_MATCH 6
-#define OP_ADD_CREDENTIALS 7
-#define OP_UPDATE_CREDENTIALS 8
-
-#define MAX_QUERY_LENGHT 255
-#define MAX_OPERATION_LENGHT 2
-#define MAX_MESSAGE_LENGHT MAX_QUERY_LENGHT + MAX_OPERATION_LENGHT +1 // +1 for null terminator
-
-
-typedef class Message {
-
-    public:
-        uint8_t operation;
-        char query[MAX_QUERY_LENGHT];
-
-        // constructor
-        Message(uint8_t operation, const char* query) {
-            this->operation = operation;
-            strcpy(this->query, query);
-        }
-
-        // default constructor
-        Message() {
-            this->operation = 0;
-            this->query[0] = '\0';
-        }
-
-        // copy constructor
-        Message(const Message& other) {
-            this->operation = other.operation;
-            strcpy(this->query, other.query);
-        }
-
-        void print() {
-            printf("Operation: %d\n", this->operation);
-            printf("Query: %s\n", this->query);
-        }
-
-} Message;
+#include <iostream>
 
 
 
@@ -74,17 +31,21 @@ bool validate_regex_custom(const char* input) {
 }
 
 
-Message* parse_message(const char buffer[], const uint32_t count) {
+Message* parse_message(const char buffer[]) {
 
-    char* operation_str = (char*) malloc(MAX_OPERATION_LENGHT*sizeof(char)); // 2 bytes for the operation
+    char* operation_str = (char*) malloc((MAX_OPERATION_LENGHT+1)*sizeof(char)); // 2 bytes for the operation +1 for null terminator
+    char* query = (char*) malloc((MAX_QUERY_LENGHT+1)*sizeof(char)); // N bytes for the query +1 for null terminator
+    int operation = 0;
+
     strncpy(operation_str, buffer, MAX_OPERATION_LENGHT); // copy the first 2 bytes of the buffer to the operation string
-    int operation = std::stoi(operation_str, nullptr, 10); // convert the operation string to an integer
-
-    char* query = (char*) malloc(MAX_QUERY_LENGHT*sizeof(char));
-
-    query = (char*) &buffer[MAX_OPERATION_LENGHT];
+    operation = std::stoi(operation_str, nullptr, 10); // convert the operation string to an integer
+    
+    strncpy(query, buffer+MAX_OPERATION_LENGHT, MAX_QUERY_LENGHT); // copy the rest of the buffer to the query string
 
     Message* message = new Message(operation, query);
+
+    free(operation_str);
+    free(query);
 
     return message;
 }
@@ -109,6 +70,16 @@ void call_operation(Message* message) {
         printf("Operation: Get by Website Match\n");
         break;
     
+    case OP_DEBUG_DB:
+        printf("Operation: Debug DB\n");
+        //debug_db();
+        break;
+
+    case OP_TEST:
+        printf("Operation: Test\n");
+        test_sd_card();
+        break;
+
     default:
         printf("Unknown operation\n");
         break;
@@ -124,8 +95,8 @@ bool handle_uart_message(const char buffer[], const uint32_t count) {
         return false;
     }
 
-    Message* message = parse_message(buffer, count);
-    message->print();
+    Message* message = parse_message(buffer);
+    // message->print();
 
     call_operation(message);
 
@@ -140,6 +111,11 @@ int main() {
     while (!tud_cdc_connected()) { 
         sleep_ms(100);
     }
+
+    // if(!init_sd()){
+    //     printf("Failed to initialize SD card\n");
+    //     return 1;
+    // }
     
     printf("Hello, Vacuus is Online and listening!\n");
 
@@ -149,8 +125,14 @@ int main() {
             // all logic of the program will be here, so that when a message is received,
             // it will be processed withouth continuing to listen for other messages
 
-            uint32_t count = tud_cdc_read(buffer, sizeof(buffer));
+            uint32_t count = tud_cdc_read(buffer, sizeof(buffer)-1); // -1 to leave space for null terminator placed next line
             buffer[count] = '\0'; // Null-terminate the string
+            
+            // clear the input buffer as exceeding characters could be read in the next message
+            while (tud_cdc_available()) {
+                tud_cdc_read_flush();
+            }
+
             bool status = handle_uart_message(buffer, count);
 
             if(!status){
