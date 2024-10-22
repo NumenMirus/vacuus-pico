@@ -77,7 +77,7 @@ void call_operation(Message* message) {
 
     case OP_TEST:
         printf("Operation: Test\n");
-        test_sd_card();
+        
         break;
 
     default:

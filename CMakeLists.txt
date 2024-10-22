@@ -6,9 +6,6 @@ project(vacuus C CXX ASM)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
-# pull in PICO SDK (must be before project)
-set(PICO_EXAMPLES_PATH ${PROJECT_SOURCE_DIR})
-
 # initialize the sdk
 pico_sdk_init()
 
