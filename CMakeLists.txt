@@ -17,11 +17,10 @@ add_executable(vacuus
     utils/database.cpp
     utils/operations.cpp
     utils/sd.cpp
-    utils/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.c
 )
 
 # pull in our pico_stdlib which pulls in commonly used features
-target_link_libraries(vacuus pico_stdlib hardware_spi FatFs_SPI)
+target_link_libraries(vacuus pico_stdlib hardware_spi)
 
 # enable usb output, disable uart output
 pico_enable_stdio_usb(vacuus 1)
@@ -29,6 +28,3 @@ pico_enable_stdio_uart(vacuus 0)
 
 # create map/bin/hex file etc.
 pico_add_extra_outputs(vacuus)
-
-# add fatfs spi library
-add_subdirectory(utils/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI build)

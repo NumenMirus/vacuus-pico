@@ -8,8 +8,4 @@
 #define SD_BAUDRATE 12500 * 1000 // 1 MHz
 #define SD_DETECT 29
 
-bool init_sd();
-
-bool mount_sd_card();
-
 bool test_sd_card();

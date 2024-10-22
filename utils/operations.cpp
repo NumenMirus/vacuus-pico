@@ -8,7 +8,7 @@ void test() {
 
     // Test SD card
     printf("Mounting SD card...\n");
-    mount_sd_card();
+    // mount_sd_card();
 
     printf("---- Exited test function -------------------\n");
 }
